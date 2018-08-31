@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgFotoPerfil"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvNombreUsusario"
+        android:text="@string/main_hint_nombreUsuario"
+        android:padding="@dimen/main_paddind_tv"
+        app:layout_constraintTop_toBottomOf="@id/imgFotoPerfil"
+        style="@style/TextViewBaseEstilo"
+        />
+
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:text="@string/main_hint_email"
+        android:padding="@dimen/main_paddind_tv"
+        app:layout_constraintTop_toBottomOf="@id/tvNombreUsusario"
+        style="@style/TextViewBaseEstilo"
+        />
+
+
+    <TextView
+        android:id="@+id/tvProvider"
+        android:text="@string/main_hint_nombreUsuario"
+        android:padding="@dimen/main_paddind_tv"
+        app:layout_constraintTop_toBottomOf="@id/tvEmail"
+        style="@style/TextViewBaseEstilo"
+        />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

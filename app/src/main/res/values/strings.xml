@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiLogin</string>
+    <string name="main_hint_nombreUsuario">Nombre</string>
+    <string name="main_hint_email">Correo</string>
+</resources>
